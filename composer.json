@@ -1,6 +1,7 @@
 {
   "name": "webneex/php-websockets",
   "description": "Simple implementation class for Web Sockets in PHP",
+  "version": "0.9",
   "license": "MIT",
   "type": "library",
   "require": {
