@@ -25,11 +25,14 @@ abstract class Server {
 
     }
 
-    abstract protected function process($user, $message); // Called immediately when the data is recieved.
+    // Called immediately when the data is recieved.
+    protected function process($user, $message) { }
 
-    abstract protected function connected($user);        // Called after the handshake response is sent to the client.
+    // Called after the handshake response is sent to the client.
+    protected function connected($user) { }
 
-    abstract protected function closed($user);           // Called after the connection is closed.
+    // Called after the connection is closed.
+    protected function closed($user) { }
 
     protected function connecting($user) {
         // Override to handle a connecting user, after the instance of the User is created, but before
