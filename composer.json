@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Webneex\\PhpWebSockets": "PhpWebSockets/"
+      "Webneex\\PhpWebSockets\\": "src/"
     }
   },
   "config": {
