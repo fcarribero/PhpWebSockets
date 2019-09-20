@@ -1,0 +1,20 @@
+{
+  "name": "webneex/php-websockets",
+  "description": "Simple implementation class for Web Sockets in PHP",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.6.4",
+    "ext-sockets": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Webneex\\PhpWebSockets": "PhpWebSockets/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

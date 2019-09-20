@@ -1,0 +1,1 @@
+Base on https://github.com/ghedipunk/PHP-Websockets
